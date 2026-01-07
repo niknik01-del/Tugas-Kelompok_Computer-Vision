@@ -1,0 +1,122 @@
+{
+    "accuracy": 0.8930041152263375,
+    "macro_avg_f1_score": 0.8599363203276468,
+    "per_class_metrics": {
+        "high cumuliform clouds": {
+            "precision": 0.8160919540229885,
+            "recall": 0.922077922077922,
+            "f1-score": 0.8658536585365854,
+            "support": 77.0
+        },
+        "cumulus clouds": {
+            "precision": 0.9692307692307692,
+            "recall": 0.984375,
+            "f1-score": 0.9767441860465116,
+            "support": 64.0
+        },
+        "cirriform clouds": {
+            "precision": 0.5384615384615384,
+            "recall": 0.6363636363636364,
+            "f1-score": 0.5833333333333334,
+            "support": 11.0
+        },
+        "stratiform clouds": {
+            "precision": 0.9537037037037037,
+            "recall": 0.8583333333333333,
+            "f1-score": 0.9035087719298246,
+            "support": 120.0
+        },
+        "stratocumulus clouds": {
+            "precision": 0.875,
+            "recall": 0.883495145631068,
+            "f1-score": 0.8792270531400966,
+            "support": 103.0
+        },
+        "cumulonimbus clouds": {
+            "precision": 0.9047619047619048,
+            "recall": 0.95,
+            "f1-score": 0.926829268292683,
+            "support": 40.0
+        },
+        "clear sky": {
+            "precision": 0.9104477611940298,
+            "recall": 0.8591549295774648,
+            "f1-score": 0.8840579710144928,
+            "support": 71.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            71,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0
+        ],
+        [
+            1,
+            63,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1,
+            0,
+            7,
+            1,
+            0,
+            2,
+            0
+        ],
+        [
+            10,
+            0,
+            4,
+            103,
+            0,
+            1,
+            2
+        ],
+        [
+            3,
+            0,
+            0,
+            4,
+            91,
+            1,
+            4
+        ],
+        [
+            1,
+            0,
+            0,
+            0,
+            1,
+            38,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            61
+        ]
+    ],
+    "class_names": [
+        "high cumuliform clouds",
+        "cumulus clouds",
+        "cirriform clouds",
+        "stratiform clouds",
+        "stratocumulus clouds",
+        "cumulonimbus clouds",
+        "clear sky"
+    ]
+}
