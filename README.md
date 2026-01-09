@@ -222,7 +222,26 @@ Prosedur penelitian meliputi beberapa tahapan utama, yaitu:
 
 ## Dataset Penelitian
 ## Sumber dan Karakteristik Dataset
-Dataset terdiri atas citra awan berwarna (RGB) yang dikelompokkan ke dalam tujuh kelas, yaitu High Cumuliform Clouds, Cumulus Clouds, Stratocumulus Clouds, Cirriform Clouds, Cumulonimbus Clouds, Stratiform Clouds, Clear Sky. Struktur dataset disusun dalam dua direktori utama, yaitu training dan testing, di mana masing-masing direktori memiliki subfolder yang merepresentasikan kelas awan. Pendekatan struktur folder ini sesuai dengan standar ImageFolder dalam pustaka PyTorch, sehingga mempermudah proses pemanggilan data secara otomatis.
+Dataset yang digunakan dalam penelitian ini terdiri atas **citra awan berwarna (RGB)**
+yang dikelompokkan ke dalam **tujuh kelas awan**, yaitu:
+- High Cumuliform Clouds
+- Cumulus Clouds
+- Stratocumulus Clouds
+- Cirriform Clouds
+- Cumulonimbus Clouds
+- Stratiform Clouds
+- Clear Sky
+
+Struktur dataset disusun ke dalam dua direktori utama, yaitu **training** dan
+**testing**, di mana masing-masing direktori memiliki subfolder yang merepresentasikan
+kelas awan. Pendekatan struktur folder ini mengikuti standar **ImageFolder** pada
+pustaka **PyTorch**, sehingga mempermudah proses pemanggilan dan pemuatan data secara
+otomatis selama proses pelatihan dan evaluasi model.
+
+Dataset citra awan dapat diakses melalui Google Drive pada tautan berikut:  
+🔗 **Dataset Cloud Image Classification**  
+https://drive.google.com/drive/folders/1oas9aTRA2fpiYRSELMFiZXWN0Dk1Y29u?usp=drive_link
+
 
 ## Pembagian Dataset
 Dataset dipisahkan secara manual ke dalam dua subset utama, yaitu:
